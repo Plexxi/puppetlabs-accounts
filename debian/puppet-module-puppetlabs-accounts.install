@@ -1,0 +1,10 @@
+examples usr/share/puppet/modules.available/puppetlabs-accounts
+files usr/share/puppet/modules.available/puppetlabs-accounts
+Gemfile usr/share/puppet/modules.available/puppetlabs-accounts
+lib usr/share/puppet/modules.available/puppetlabs-accounts
+locales usr/share/puppet/modules.available/puppetlabs-accounts
+manifests usr/share/puppet/modules.available/puppetlabs-accounts
+metadata.json usr/share/puppet/modules.available/puppetlabs-accounts
+Rakefile usr/share/puppet/modules.available/puppetlabs-accounts
+spec usr/share/puppet/modules.available/puppetlabs-accounts
+

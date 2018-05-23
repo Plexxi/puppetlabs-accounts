@@ -16,10 +16,9 @@ define accounts::home_dir(
   $forward_content      = undef,
   $forward_source       = undef,
   $mode                 = undef,
-  $ensure               = 'present',
+  Enum['present', 'absent'] $ensure = 'present',
   $sshkeys              = [],
 ) {
-  validate_re($ensure, '^(present|absent)$')
 
   if $ensure == 'absent' {
     file { $name:
